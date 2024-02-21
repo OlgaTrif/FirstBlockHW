@@ -9,6 +9,7 @@ Console.WriteLine("Исходный массив: ");
 WriteArray(firstArray);
 // Вызов метода для создания нужного массива
 // Вывод результата
+Console.WriteLine("Результирующий массив: ");
 WriteArray(FilterArray(firstArray));
 
 // Метод для создания массива из элементов с <=3 символами
@@ -27,7 +28,6 @@ string[] FilterArray(string[] array)
 
 //Вывод результата
 void WriteArray(string[] array) {
-    Console.WriteLine("Результирующий массив: ");
     for (int i = 0; i < array.Length; i++) {
         Console.WriteLine(array[i] + ", ");
     }
