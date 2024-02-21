@@ -8,9 +8,8 @@ string[] firstArray = new string[6] {"anh", "bGRb68", "NB", "Hello", "G", "h"};
 Console.WriteLine("Исходный массив: ");
 WriteArray(firstArray);
 // Вызов метода для создания нужного массива
-string[] resultArray = FilterArray(firstArray);
 // Вывод результата
-WriteArray(resultArray);
+WriteArray(FilterArray(firstArray));
 
 // Метод для создания массива из элементов с <=3 символами
 string[] FilterArray(string[] array)
